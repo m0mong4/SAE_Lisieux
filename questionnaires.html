@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>  <!-- métadonnées du site -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Site de l'agglomération de Lisieux</title>   <!-- titre du site -->
+        <link rel="stylesheet" href="style.css">    <!-- import du fichier css -->
+    </head>
+    <body>
+        <header>
+            <nav>   <!-- menu des différentes pages -->
+                <a href="index.html">Présentation</a>
+                <a href="etat.html">Etat des lieux</a>
+                <a href="bilan.html">Transition Energetique</a>
+                <a href="service.html">Services de Transport</a>
+                <a href="questionnaires.html">Questionnaires</a>
+            </nav>
+            <div>   <!-- page de connexion pour l'accès représentant des administrés-->
+                <a href="connexion.html">Connexion</a>
+            </div>  <!-- titre de la page actuelle -->
+            <h1>QUESTIONNAIRES</h1>
+        </header>
+
+        <main class="container my-5">
+
+            <div class="m">
+
+                <!-- SECTION ADMINISTRÉS -->
+                <section class="administrés">
+                    <h2>Questionnaire destiné aux administrés</h2>
+
+                    <p>
+                        Ce questionnaire s’adresse à tous les habitants de la communauté d’agglomération Lisieux Normandie.
+                        Il a pour objectif de recueillir vos habitudes, vos besoins et vos attentes en matière de déplacements
+                        (trajets domicile-travail, études, loisirs, courses, santé, etc.).
+                        Les réponses permettront de mieux connaître :
+                    </p>
+
+                    <ul>
+                        <li>les modes de transport utilisés ;</li>
+                        <li>la fréquence et les motifs des déplacements ;</li>
+                        <li>les difficultés rencontrées ;</li>
+                        <li>les attentes pour améliorer les mobilités.</li>
+                    </ul>
+
+                    <div>
+                        <button onclick="to_quest('adm')" class="bouton">Cliquez ici</button>
+                    </div>
+                </section>
+
+                <!-- SECTION COMMUNES -->
+                <section class="communes">
+                    <h2>Questionnaire destiné aux communes</h2>
+
+                    <p>
+                        Ce questionnaire est destiné aux communes membres de Lisieux Normandie
+                        (mairies, services municipaux, collectivités locales). Il vise à collecter
+                        des données structurées sur chaque commune. Il permettra de :
+                    </p>
+
+                    <ul>
+                        <li>dresse un état des lieux précis des infrastructures ;</li>
+                        <li>identifier les besoins ou lacunes ;</li>
+                        <li>adapter la stratégie du PLD ;</li>
+                        <li>coordonner les projets entre communes.</li>
+                    </ul>
+
+                    <div>
+                        <button onclick="to_quest('com')" class="bouton">Cliquez ici</button>
+                    </div>
+                </section>
+
+            </div>
+
+        </main> 
+
+        <div class="FAQ">
+            <a href="faq.html">?</a>
+        </div>
+        
+        <footer>
+            <div id="gauche">   <!-- copyright et signature -->
+                <p>~~| Copyright © |~~</p>
+                <p>DE MEYER Iria</p>
+                <p>TD3  -  SAE-4/5/6  -  2025</p>
+            </div>
+
+            <div id="droite">   <!-- contacts des membres du conseil des communes-->
+                <h3>Contacts :</h3>
+                <ul>
+                    <li>fabienne.jort@unicaen.fr</li>
+                </ul>
+            </div>
+
+
+        <script src="script.js"></script>   <!-- import du fichier JS -->
+    </body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>  <!-- métadonnées du site -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Site de l'agglomération de Lisieux</title>   <!-- titre du site -->
+        <link rel="stylesheet" href="style.css">    <!-- import du fichier css -->
+    </head>
+    <body>
+        <header>
+            <nav>   <!-- menu des différentes pages -->
+                <a href="index.html">Présentation</a>
+                <a href="etat.html">Etat des lieux</a>
+                <a href="bilan.html">Transition Energetique</a>
+                <a href="service.html">Services de Transport</a>
+                <a href="questionnaires.html">Questionnaires</a>
+            </nav>
+            <div>   <!-- page de connexion pour l'accès représentant des administrés-->
+                <a href="connexion.html">Connexion</a>
+            </div>  <!-- titre de la page actuelle -->
+            <h1 class="text-3xl font-bold underline">PAGE DE PRESENTATION</h1>
+        </header>
+
+        <main class="main">
+            <div class="faq-container">
+                <!-- Colonne de gauche : Questions et réponses -->
+                <section class="faq-questions">
+                    <h2>Foire aux questions - Plan Local de Déplacements de Lisieux Normandie</h2>
+                    
+                    <div id="q1" class="question-item">
+                        <h3><span class="question-number">1</span> Qu'est-ce que le PLD (Plan Local de Déplacements) ?</h3>
+                        <p>Le PLD est un document stratégique qui définit les actions à mettre en place pour organiser et améliorer les déplacements sur le territoire de Lisieux Normandie. Il vise à favoriser des modes de transport plus durables, réduire le trafic automobile et répondre aux besoins réels des habitants et des communes.</p>
+                    </div>
+                    
+                    <div id="q2" class="question-item">
+                        <h3><span class="question-number">2</span> Pourquoi participez-vous à cette étude ?</h3>
+                        <p>La communauté d'agglomération souhaite connaître les habitudes et attentes des usagers ainsi que les spécificités de chaque commune. Vos réponses permettront de concevoir un PLD adapté aux réalités locales, garantissant mobilité, accessibilité et durabilité.</p>
+                    </div>
+                    
+                    <div id="q3" class="question-item">
+                        <h3><span class="question-number">3</span> Qui peut répondre aux questionnaires ?</h3>
+                        <p><strong>Administrés :</strong> tous les habitants de Lisieux Normandie.</p>
+                        <p><strong>Communes :</strong> les services municipaux et responsables des infrastructures et des transports.</p>
+                    </div>
+                    
+                    <div id="q4" class="question-item">
+                        <h3><span class="question-number">4</span> Combien de temps faut-il pour répondre aux questionnaires ?</h3>
+                        <p><strong>Le questionnaire des administrés</strong> prend environ 5 à 10 minutes.</p>
+                        <p><strong>Le questionnaire des communes</strong> prend environ 10 à 15 minutes, selon la disponibilité des informations.</p>
+                    </div>
+                    
+                    <div id="q5" class="question-item">
+                        <h3><span class="question-number">5</span> Que va-t-il se passer avec mes réponses ?</h3>
+                        <p>Toutes les réponses seront anonymes pour les administrés et confidentielles pour les communes. Elles seront utilisées uniquement pour analyser les besoins de mobilité et élaborer le PLD.</p>
+                    </div>
+                    
+                    <div id="q6" class="question-item">
+                        <h3><span class="question-number">6</span> Quelles informations sont demandées dans le questionnaire des administrés ?</h3>
+                        <p>Le questionnaire vise à connaître :</p>
+                        <ul>
+                            <li>Les modes de transport utilisés,</li>
+                            <li>La fréquence et les motifs des déplacements,</li>
+                            <li>Les difficultés rencontrées,</li>
+                            <li>Les attentes et suggestions pour améliorer la mobilité.</li>
+                        </ul>
+                    </div>
+                    
+                    <div id="q7" class="question-item">
+                        <h3><span class="question-number">7</span> Quelles informations sont demandées dans le questionnaire des communes ?</h3>
+                        <p>Le questionnaire des communes permet de recenser :</p>
+                        <ul>
+                            <li>La population et la structure de la commune,</li>
+                            <li>Les infrastructures et services existants,</li>
+                            <li>Les besoins spécifiques en mobilité,</li>
+                            <li>Les projets ou contraintes locales pour organiser les déplacements.</li>
+                        </ul>
+                    </div>
+                    
+                    <div id="q8" class="question-item">
+                        <h3><span class="question-number">8</span> Quand sera finalisé le PLD ?</h3>
+                        <p>Après la collecte et l'analyse des données, les résultats permettront d'élaborer le PLD. Le calendrier exact sera communiqué par la communauté d'agglomération, mais le processus s'étalera sur plusieurs mois afin de garantir la participation et la précision des informations.</p>
+                    </div>
+                    
+                    <div id="q9" class="question-item">
+                        <h3><span class="question-number">9</span> Comment puis-je obtenir plus d'informations ?</h3>
+                        <p>Vous pouvez contacter la communauté d'agglomération Lisieux Normandie via :</p>
+                        <ul>
+                            <li>Le site web officiel : <a href="https://www.lisieux-normandie.fr/" target="_blank">https://www.lisieux-normandie.fr/</a></li>
+                            <li>Votre mairie ou service local de mobilité</li>
+                        </ul>
+                    </div>
+                </section>
+                
+                <!-- Colonne de droite : Menu de navigation et formulaire -->
+                <aside class="faq-menu">
+                    <h3>Navigation des questions</h3>
+                    <ul>
+                        <li><a href="#q1">Qu'est-ce que le PLD ?</a></li>
+                        <li><a href="#q2">Pourquoi participer à l'étude ?</a></li>
+                        <li><a href="#q3">Qui peut répondre aux questionnaires ?</a></li>
+                        <li><a href="#q4">Temps de réponse aux questionnaires</a></li>
+                        <li><a href="#q5">Confidentialité des réponses</a></li>
+                        <li><a href="#q6">Questionnaire des administrés</a></li>
+                        <li><a href="#q7">Questionnaire des communes</a></li>
+                        <li><a href="#q8">Calendrier du PLD</a></li>
+                        <li><a href="#q9">Plus d'informations</a></li>
+                    </ul>
+                    
+                    <!-- Formulaire pour poser une question dans la sidebar -->
+                    <div class="question-form-sidebar">
+                        <h4>Posez votre question</h4>
+                        <form id="question-form-sidebar">
+                            <div class="form-group">
+                                <label for="user-name-sidebar">Nom (optionnel)</label>
+                                <input type="text" id="user-name-sidebar" name="name" placeholder="Votre nom">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="user-email-sidebar">Email *</label>
+                                <input type="email" id="user-email-sidebar" name="email" placeholder="votre@email.com" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="user-question-sidebar">Votre question *</label>
+                                <textarea id="user-question-sidebar" name="question" rows="4" placeholder="Posez votre question..." required></textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="user-category-main">Catégorie de la question</label>
+                                <select id="user-category-main" name="category">
+                                    <option value="">Sélectionnez une catégorie</option>
+                                    <option value="questionnaires">Questionnaires</option>
+                                    <option value="pld">PLD (Plan Local de Déplacements)</option>
+                                    <option value="transports">Transports en commun</option>
+                                    <option value="infrastructures">Infrastructures</option>
+                                    <option value="autres">Autres</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <button type="submit" class="sidebar-submit-btn">Envoyer</button>
+                            </div>
+                            
+                            <p class="sidebar-form-note">Nous vous répondrons rapidement !</p>
+                        </form>
+                        
+                        <div id="confirmation-message-sidebar" style="display: none; margin-top: 15px; padding: 10px; background-color: #d4edda; border-radius: 5px; text-align: center;">
+                            <p style="color: #155724; font-size: 0.9em; margin: 0;">✅ Question envoyée !</p>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </main>
+
+        <footer>
+            <div class="h-100 align-items-center"> <!-- copyright, noms et TD-->
+                <p class="mb-1">~~| Copyright © |~~</p>
+                <p class="mb-1 fw-bold">MUNOZ Paul</p>
+                <p class="mb-0 text-muted">TD3 - SAE-4/5/6 - 2025</p>
+            </div>
+
+            <div>
+                <h5 class="mb-3 border-bottom border-secondary pb-2">Contacts</h5>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-1">fabienne.jort@unicaen.fr</li>
+                </ul>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>   <!-- import du fichier JS -->
+    </body>
+</html>

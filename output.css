@@ -1,0 +1,188 @@
+/* -- réglages généraux -- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: lightgrey;
+}
+
+/* -- menu de navigation -- */
+
+header {
+    text-align: center;
+}
+
+header > nav {
+    display: flex;
+    height: max-content;
+    margin: 1.5%;
+    border: 2px solid black;
+    border-radius: 30px;
+    top: 0px;
+}
+
+header > nav > a {
+    width: 20%;
+    padding: 1.5%;
+    font-size: xx-large;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+    background-color: lightgrey;
+    color: black;
+}
+
+header > nav > a.left {
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+header > nav > a.right {
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+header > nav > a:hover {
+    color: white;
+    background-color: darkgrey;
+}
+
+header > div {
+    position: absolute;
+    padding: 5px;
+    right: 15px;
+    top: 15px;
+}
+
+header > div > a {
+    padding: 5px;
+    transition: 0.5s ease-in-out;
+    background-color: darkgrey;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+header > div > a:hover {
+    color: white;
+    background-color: rgb(111, 111, 111);
+}
+
+header > div > a {
+    text-decoration: none;
+    color: black;
+}
+
+header > h1 {
+    top: 30px;
+    padding-bottom: 30px;
+}
+
+/* -- index -- */
+
+.main {
+    width: 100%;
+}
+
+.main > .résumé {
+    padding: 30px;
+    margin:2%;
+    border: 2px solid black;
+    width: 40%;
+    border-radius: 30px;
+    box-shadow: -5px 5px 5px 0px rgba(0, 0, 0, 0.363);
+}
+
+
+/* -- connexion -- */
+
+.connexion {
+    justify-self: center;
+    align-self: center;
+    background-color: darkgrey;
+    padding: 5%;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+.connexion > form > div {
+    margin-top: 5%;
+}
+
+.connexion > form > .confirmer {
+    justify-self: center;
+}
+
+/* -- questionnaires -- */
+
+.m {
+    display : flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.m > .administrés {
+    padding: 30px;
+    margin:2%;
+    border: 2px solid black;
+    width: 40%;
+    border-radius: 30px;
+    box-shadow: -5px 5px 5px 0px rgba(0, 0, 0, 0.363);
+}
+
+.m > .communes {
+    padding: 30px;
+    margin:2%;
+    border: 2px solid black;
+    width: 40%;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.363);
+}
+
+.m > section > div {
+    justify-self:center; 
+    margin-top:5%;
+}
+
+.bouton{
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;  
+    background-color: rgb(187, 187, 187);
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.bouton:hover{
+    background-color: darkgrey;
+    transition: 0.5s ease-in-out;
+    color:white;
+}
+
+/* -- footer -- */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+    background-color: darkgrey;
+    bottom: 0;
+    position:fixed;
+    border-top: 1px solid black;
+    box-shadow: 10px 10px 10px 10px black;
+    width:100%;
+}
+
+footer > div {
+    width: 30%;
+}
+
+footer > #gauche {
+    text-align: center;
+}
+
+footer > div > ul {
+    padding-left: 30px;
+}

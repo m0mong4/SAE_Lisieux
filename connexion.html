@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>  <!-- métadonnées du site -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Site de l'agglomération de Lisieux</title>   <!-- titre du site -->
+        <link rel="stylesheet" href="style.css">    <!-- import du fichier css -->
+    </head>
+    <body>
+        <header>
+            <div>   <!-- page de connexion pour l'accès représentant des administrés-->
+                <a href="index.html">Retour à l'accueil</a>
+            </div>  <!-- titre de la page actuelle -->
+            <h1>CONNEXION</h1>
+        </header>
+
+        <main class="connexion">
+            <form action="menu_connecte.html" method="post">
+                <div>
+                    <p>Rentrez votre mail :</p>
+                    <input type="email" id="adresse" name="adresse">
+                </div>
+                <div>
+                    <p>Rentrez votre mot de passe :</p>
+                    <input type="password" id="mdp" name="mdp">
+                </div>
+                <div class="confirmer">
+                    <input type="submit" name="confirmer" id="confirmer">
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <div class="h-100 align-items-center"> <!-- copyright, noms et TD-->
+                <p class="mb-1">~~| Copyright © |~~</p>
+                <p class="mb-1 fw-bold">GUILBERT Joan</p>
+                <p class="mb-0 text-muted">TD3 - SAE-4/5/6 - 2025</p>
+            </div>
+
+            <div> <!-- sources et contacts -->
+                <h5 class="mb-3 border-bottom border-secondary pb-2">Contacts</h5>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-1">fabienne.jort@unicaen.fr</li>
+                </ul>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>   <!-- import du fichier JS -->
+    </body>
+</html>

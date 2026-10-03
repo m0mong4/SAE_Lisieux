@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accès aux données - Agglomération de Lisieux</title>
+        <link rel="stylesheet" href="style.css">    <!-- import du fichier css -->
+    </head>
+    <body>
+        <main>
+            <div class="page-container">
+                <h1 class="main-title">Accès aux données des questionnaires</h1>
+                
+                <div class="data-container">
+                    <!-- Colonne des communes -->
+                    <div class="data-column">
+                        <h2 class="column-title">Administrés des Communes</h2>
+                        <div class="questionnaire-list" id="administres-list">
+                            <!-- Généré par JavaScript -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Section pour afficher les détails -->
+                <div class="questionnaire-details" id="details-section">
+                    <h3 class="details-title" id="details-title">Détails de l'administré</h3>
+                    <div class="details-content" id="details-content">
+                        <!-- Contenu rempli par JavaScript -->
+                    </div>
+                </div>
+                
+                <!-- Boutons d'actions -->
+                <div class="button-container">
+                    <button class="action-button btn-print" id="btn-print">Imprimer</button>
+                    <button class="action-button btn-edit" id="btn-edit">Modifier</button>
+                    <button class="action-button btn-delete" id="btn-delete">Supprimer</button>
+                    <button class="action-button btn-back" id="btn-back">Retour au menu</button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="h-100 align-items-center"> <!-- copyright, noms et TD-->
+                <p class="mb-1">~~| Copyright © |~~</p>
+                <p class="mb-1 fw-bold">WALLAERT-BEAUGENDRE Noor</p>
+                <p class="mb-0 text-muted">TD3 - SAE-4/5/6 - 2025</p>
+            </div>
+
+            <div> <!-- sources et contacts -->
+                <h5 class="mb-3 border-bottom border-secondary pb-2">Contacts</h5>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-1">fabienne.jort@unicaen.fr</li>
+                </ul>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>   <!-- import du fichier JS -->
+        <script>
+            initAdministrePage();
+        </script>
+    </body>
+</html>
